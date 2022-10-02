@@ -1,0 +1,139 @@
+body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* app-black */
+    
+    color: #232323; 
+}
+
+.center{
+    margin-top: 27px;
+        display: grid; 
+        justify-content: center;
+
+}
+.center-logo{
+
+        display: flex; 
+        justify-content: center;
+
+}
+.orange-text{
+    color:#F1813B;
+}
+.main{
+    position: absolute;
+width: 420px;
+height: 797px;
+left: calc((100vw - 420px)/2);
+top: 185px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
+border-radius: 16px;
+}
+.text-center{
+    position: grid;
+    margin: 16px 74px 0px 75px;
+width: 271px;
+height: 24px;
+left: 565px;
+top: 201px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+/* app-black */
+
+color: #232323;
+}
+.oranget-text-left-top{
+    position: grid;
+    margin: 19px 210px 0px 32px;
+width: 178px;
+height: 24px;
+left: 522px;
+top: 244px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+/* app-orange */
+
+color: #F1813B;
+}
+.form-control{
+    height: 56px;
+    width: 360px;
+    margin: auto;
+    margin-top: 10px;
+    background: #F0F2F7;
+    border-radius: 10px;
+
+}
+.btn{
+    height: 16px;
+    width: 19.95px;
+}
+.arrow{
+    position: absolute;
+padding-left: 354.05px;
+margin-top: -45px;
+}
+
+.five-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15.5px;
+    margin-top: 14px;
+    padding-left: 30px;
+}
+.five-buttons-two{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15.5px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.block{
+    width: 60px;
+height: 60px;
+left: 0px;
+top: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 24px;
+/* or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+padding-left: 26.67px;
+color: #FFFFFF;
+/* app-orange */
+
+background: #F1813B;
+border-radius: 10px;
+}
+
+@media(min-width:2560px){
+}
